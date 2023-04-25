@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Aleo', serif;
+    color: white;
 }
 body{
     position: relative;
     float: left;
     width: 100%;
     height: 100vh;
+    background-image: linear-gradient(to right top, #44789e, #396688, #2e5572, #24455d, #1a3549);
 
 
 }
@@ -17,7 +19,7 @@ nav{
     float: left;
     width: 100%;
     height: 100px;
-    background: brown;
+    /* background: brown; */
 
 }
 nav h3{
@@ -44,13 +46,13 @@ nav ul li{
     cursor: pointer;
 
 }
-.intro_div{
+.intro_div, .career_div{
     position: relative;
     float: left;
-    width: 80%;
+    width: 90%;
     height:35%;
-    margin: 5% 10%;
-    background-color: red;
+    margin: 5%;
+    /* background-color: red; */
     overflow: hidden;
     
 }
@@ -90,4 +92,52 @@ nav ul li{
     width: 100%;
     margin:2% 0;
     font-size: 18px;
+}
+.career_div{
+    margin: 1% 5%;
+
+
+}
+.career_details{
+    position: relative;
+    float: left;
+    width: 55%;
+    height: 100%;
+    /* background-color: ; */
+}
+.career_details h3{
+    position: relative;
+    float: left;
+    margin: 5% 0;
+    font-size: 30px;
+    width: 100%;
+}
+.career_details p{
+    position: relative;
+    float: left;
+    width: 100%;
+    font-size: 18px;
+}
+.career_list{
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+.career_list ul{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.career_list ul li{
+    position: relative;
+    float: left;
+    margin: 2%;
+    list-style: none;
+    text-transform:uppercase;
+    border: 1px solid black;
+    padding: .5em 1em;
+    font-size: 14px;
 }
